@@ -34,9 +34,14 @@ namespace Lemonade_Stand
             Console.WriteLine();
             int CostOfCups = NumberOfCups * CostPerCups;
             int TotalProfit = TotalRevenue - CostOfCups;
-            Console.WriteLine("Your " + LemonadeStandName + " will have a Total Revenue of $" + TotalRevenue + " at a cost of $ " + CostOfCups);
-            Console.WriteLine("Your profit will be $ " + TotalProfit);
+            Console.WriteLine("Your Lemonade stand, " + LemonadeStandName + ", will have a Total Revenue of $" + TotalRevenue + " at a cost of $ " + CostOfCups);
+            Console.WriteLine("Your profit will be $" + TotalProfit);
             Console.WriteLine("Does this sound good or bad?");
+            Console.WriteLine();
+
+            Console.WriteLine("Would you like to proceed?");
+            string UserResponse = Console.ReadLine();
+
 
 
 
